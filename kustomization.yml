@@ -1,0 +1,6 @@
+kind: Kustomization
+apiVersion: kustomize.config.k8s.io/v1beta1
+
+crds:
+- crds/openshift-route.json
+- crds/openshift-deploymentconfig.json
